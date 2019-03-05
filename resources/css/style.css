@@ -1,0 +1,158 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: red;
+    font-family: fantasy;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+@media(min-width: 400px) {
+.imagewrap{
+/*    background-image: url(../media/images/Zombie-Apocalypse-zombies-38457135-500-313.jpg);*/
+    background-size: cover;
+    position: absolute;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+}
+.photocred {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2vh;
+    font-family: sans-serif cursive;
+/*    border: 2px dotted red; */
+    color: white
+}
+/*@media(mi)*/
+.buttons {
+    background-color: darkred;
+    font-size: 4vh;
+    position: absolute;
+    width: auto;
+    height: 2em;
+    left: 45vw;
+    bottom: 15vmin;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+/*
+@media(min-width: 400px) {
+    .buttons {
+    background-color: darkred;
+    font-size: 4vmin;
+    position: absolute;
+    width: auto;
+    height: 15vmin;
+    left: 43vw;
+    bottom: 20vmin;
+    border-radius: 10%;
+    }
+}
+*/
+
+.buttons-1 {
+    background-color: darkred;
+    font-size: 2vmin;;
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    left: 20vw;
+    bottom: 15vmin;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.buttons-2 {
+    background-color: darkred;
+/*    font-size: 2vmin;*/
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    right: 20vw;
+    bottom: 15vmin;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.buttonsWords {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    align-content: center;
+    font-size: 2vmin;
+}
+
+.buttonsWords:hover,
+.buttonswords:visited,
+.buttonsWords:active,
+.buttonsWords:link {
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+h2.inFront {
+    width: auto;
+    border: 2px solid red;
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    font-size: 3vmin;
+    color: #fff;
+    font-family: fantasy;
+    height: 60vmin;
+    top: 0px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    background-color: black; 
+    padding: 3vmin 3vmin 7px 3vmin;
+    border-radius: 5%;
+}
+
+.grid {
+    display:grid;
+    grid-gap: 10px;
+}
+/*
+
+@media(min-width: 400px) {
+    h2.infront {
+        font-size: 2vmin;
+        width: auto;
+        border: 2px solid red;
+        display: flex; 
+        justify-content: center;
+        position: absolute;
+        font-size: 3vmin;
+        color: #fff;
+        font-family: fantasy;
+        height: 17em;
+        top: 0px;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        background-color: black; 
+        padding: 3vmin 3vmin 7px 3vmin;
+        border-radius: 5%;
+    }
+}*/
