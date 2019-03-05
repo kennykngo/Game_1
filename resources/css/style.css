@@ -7,7 +7,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-
+/*    filter: opacity(75%);*/
 }
 
 
@@ -26,6 +26,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
+    filter: invert(100%)
 }
 }
 .photocred {
@@ -35,7 +36,7 @@ h1 {
     font-size: 2vh;
     font-family: sans-serif cursive;
 /*    border: 2px dotted red; */
-    color: white
+    color: #000;
 }
 /*@media(mi)*/
 .buttons {
@@ -128,6 +129,7 @@ h2.inFront {
     background-color: black; 
     padding: 3vmin 3vmin 7px 3vmin;
     border-radius: 5%;
+    filter: opacity(75%);
 }
 
 .grid {
